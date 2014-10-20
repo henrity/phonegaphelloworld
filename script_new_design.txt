@@ -1,0 +1,8 @@
+#!/bin/sh
+
+curl -X POST "https://api.scalablepress.com/v2/order" \
+ -u ":93f6315847d935efb4244f5347d899c0" \
+ -d "type=screenprint" \
+ -F "sides[front][artwork]=/Users/henritilloy/Desktop/yolo.png" \
+ -d "sides[front][colors][0]=white" \
+ -d "sides[front][dimensions][width]=5" 
